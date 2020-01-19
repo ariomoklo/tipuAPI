@@ -1,0 +1,21 @@
+{
+	"name": "tipuapi",
+	"version": "1.0.0",
+	"description": "Fake API Skeleton for quick frontend development",
+	"main": "index.js",
+	"scripts": {
+		"build": "node build.js",
+		"serve": "json-server index.js --routes routes.json",
+		"start": "json-server database.json --routes routes.json"
+	},
+	"author": "Ario Widiatmoko",
+	"license": "MIT",
+	"devDependencies": {
+		"faker": "^4.1.0",
+		"json-server": "^0.15.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ariomoklo/tipuAPI.git"
+	}
+}
