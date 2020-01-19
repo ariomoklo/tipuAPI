@@ -1,3 +1,4 @@
 {
-	"/api/*": "/$1"
+	"/api/*": "/$1",
+	"/userscore/:id": "/users/:id?_embed=scores"
 }

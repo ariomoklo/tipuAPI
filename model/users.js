@@ -1,4 +1,5 @@
 const faker = require("faker");
+faker.locale = "id_ID";
 
 const user = index => {
 	return {
